@@ -475,7 +475,7 @@ footer {
 
 @media screen and (max-width: 500px) {
     .content-section {
-        width: 100%;
+        width: 95%;
     }
 
     #first-section {
@@ -497,8 +497,12 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-    .card {
-        width: 180px;
+    #contacts-area a {
+        width: 90%;
+    }
+
+    #contacts-area a .card-contact {
+        width: 100%;
     }
 
     #text-about-me {
