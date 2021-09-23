@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html, body {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+}
+
+#left-circle {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: #FF89D0;
+    position: absolute;
+    top: -350px;
+    left: -350px;
+    display: flex;
+    border: 1px solid rgb(255, 176, 223, .5);
+}
+
+#logo {
+    margin-left: 440px;
+    margin-top: 380px;
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    margin-left: 320px;
+    background-color: rgb(255, 176, 223, .5);
+    border-radius: 0px 0px 50px 50px;
+    width: 60%;
+    border: 2px solid #faafdc;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+nav ul li {
+    margin: 60px auto;
+    padding: 0px;
+    transition: .3s;
+}
+
+nav ul li:hover {
+    transform: scale(1.05);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #D91897;
+    font-weight: bold;
+}
+
+/**/
+
+main {
+    margin-top: 150px;
+}
+
+.title h2 {
+    margin: 15px 19%;
+    color: #D91897;
+}
+
+.content-section {
+    width: 65%;
+    margin: 0 auto;
+}
+
+#first-section {
+    background-color: rgb(255, 177, 224, .5);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 30px 60px;
+    border-radius: 60px;
+    justify-content: center;
+    column-gap: 10%;
+    row-gap: 50px;
+    border: 2px solid #faafdc;
+    box-shadow: 10px 10px 30px -10px rgb(184, 184, 184);
+}
+
+.card {
+    width: 230px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px 0px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.card h4 {
+    margin: 15px 0px;
+    font-size: 18px;
+}
+
+.card button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(67, 216, 67);
+    border: 1px solid rgb(42, 133, 42);
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: .3s;
+    width: 80%;
+    margin: 15px auto;
+}
+
+.card button:hover {
+    background-color: rgb(63, 194, 63);
+}
+
+.card button img {
+    width: 30%;
+    margin-right: 0px;
+}
+
+.card button span {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+/**/
+
+#about-me {
+    margin-top: 100px;
+    background-color: rgb(255, 177, 224, .5);
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+#right-circle {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: #FF89D0;
+    position: absolute;
+    right: -350px;
+}
+
+#right-circle img {
+    width: 45%;
+    margin-top: 200px;
+    border-radius: 50%;
+    margin-left: 20px;
+    transform: rotate(50deg);
+    border: 5px solid #fff;
+}
+
+#text-about-me {
+    width: 70%;
+    margin-left: 50px;
+}
+
+#text-about-me h3 {
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+#text-about-me #content {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#tiktok-area {
+    margin: 100px auto;
+}
+
+#tiktok-area h2 {
+    color: #D91897;
+    text-align: center;
+}
+
+#tiktok-videos {
+    margin-top: 15px;
+    display: flex;
+}
+
+/**/
+
+#about-us {
+    background-color: rgb(255, 177, 224, .5);
+    display: flex;
+    align-items: center;
+    min-height: 700px;
+}
+
+#left-circle-2 {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: #FF89D0;
+    position: absolute;
+    left: -350px;
+}
+
+#left-circle-2 img {
+    width: 50%;
+    margin-left: 320px;
+    margin-top: 180px;
+    border: 5px solid rgb(230, 230, 230);
+    border-radius: 50%;
+}
+
+#text-about-us {
+    margin-left: 400px;
+    width: 70%;
+}
+
+#text-about-us h2 {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    color: #D91897;
+}
+
+#text-about-us #about-us-content {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/**/
+
+#contacts-area {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    margin: 100px auto;
+}
+
+#contatos {
+    color: #D91897;
+    margin-bottom: 40px;
+}
+
+#contacts-area a {
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+    transition: .5s;
+}
+
+#contacts-area a:hover {
+    transform: scale(1.01);
+
+}
+
+.card-contact {
+    width: 100%;
+    background-color: rgb(255, 177, 224, .5);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 8px 15px;
+    transition: .5s;
+}
+
+#contacts-area .card-contact:hover {
+    background-color: rgba(235, 88, 176, 0.5);
+}
+
+.card-contact img {
+    width: 60px;
+    margin: 0px 15px;
+}
+
+/**/
+
+footer {
+    width: 100%;
+    background-color: #FF89D0;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* WHATSAPP BUTTON */
+
+#botao-whatsapp {
+    width: 62px;
+    height: 62px;
+    position: fixed;
+    right: 1%;
+    bottom: 90px;
+    background-color: rgb(0, 0, 0);
+    transition: 700ms;
+    border-radius: 30px;
+    text-align: center;
+    opacity: 70%;
+    box-shadow: 0px 0px 18px -2px black;
+}
+
+#botao-whatsapp:hover {
+    opacity: 100%;
+}
+
+#botao-whatsapp img {
+    width: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+}
