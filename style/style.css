@@ -70,6 +70,7 @@ nav ul li a {
     text-decoration: none;
     color: #D91897;
     font-weight: bold;
+    
 }
 
 /**/
@@ -98,7 +99,6 @@ main {
     justify-content: center;
     column-gap: 10%;
     row-gap: 50px;
-    border: 2px solid #faafdc;
     box-shadow: 10px 10px 30px -10px rgb(184, 184, 184);
 }
 
@@ -110,6 +110,7 @@ main {
     text-align: center;
     margin: 15px 0px;
     transition: .3s;
+    box-shadow: 1px 1px 15px -8px black;
 }
 
 .card:hover {
@@ -139,6 +140,7 @@ main {
     transition: .3s;
     width: 80%;
     margin: 15px auto;
+
 }
 
 .card button:hover {
@@ -199,6 +201,7 @@ main {
     background-color: #fff;
     padding: 15px;
     border-radius: 10px;
+    box-shadow: 1px 1px 15px -8px black;
 }
 
 #tiktok-area {
@@ -256,6 +259,7 @@ main {
     background-color: #fff;
     padding: 15px;
     border-radius: 10px;
+    box-shadow: 1px 1px 15px -8px black;
 }
 
 /**/
@@ -295,6 +299,7 @@ main {
     margin: 10px 0px;
     padding: 8px 15px;
     transition: .5s;
+    box-shadow: 1px 1px 15px -10px black;
 }
 
 #contacts-area .card-contact:hover {
@@ -469,6 +474,15 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+    .content-section {
+        width: 100%;
+    }
+
+    #first-section {
+        border: none;
+        border-radius: 30px;
+    }
+
     .card-contact {
         padding: 20px;
     }
